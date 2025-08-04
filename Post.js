@@ -3,7 +3,7 @@ const Comment = require('./Comment');
 class Post {
     constructor(content, author) {
         this.content = content;
-        this.author = author; // objeto da classe Author
+        this.author = author; 
         this.commentSection = new Comment();
     }
 
